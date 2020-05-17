@@ -12,7 +12,7 @@ const errorController = require('./controllers/error');
 const User = require('./models/user');
 
 const MONGODB_URI =
-  'mongodb+srv://enrique-lopez:teamoximenaporsiempre@cluster0-iboeu.mongodb.net/shop';
+  '';
 
 const app = express();
 const store = new MongoDBStore({
