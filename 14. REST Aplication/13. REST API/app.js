@@ -70,7 +70,7 @@ app.use((error, req, res, next) => {
 
 mongoose
     .connect(
-        ""
+        "mongodb+srv://enrique-lopez:teamoximenaporsiempre@cluster0-iboeu.mongodb.net/messages"
     )
     .then(result => {
         app.listen(8080);
